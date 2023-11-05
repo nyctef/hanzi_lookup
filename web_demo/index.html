@@ -106,7 +106,6 @@
         const strokes = _drawingBoard.cloneStrokes();
         _start = new Date().getTime();
         _worker.postMessage({ strokes: strokes, limit: 8 });
-        showResults(matches);
       }
 
       // Populates UI with (ordered) Hanzi matches
